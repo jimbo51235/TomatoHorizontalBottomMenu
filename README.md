@@ -28,7 +28,7 @@ TomatoHorizontalBottomMenu Framework lets you create a horizontal, scrollable me
 
 ![](Screenshots/Screenshot_002.jpg)
 
-2. Create a sub-class of **UIViewController**.  Name it BasicViewController, BaseViewController, RootViewController or whatever you want such that all child view controllers can be based on.  For now, let us call this base view controller **BasicViewController**.  Import **TomatoHorizontalMenuFramework** to the view controller.
+2. Create a sub-class of **UIViewController**.  Name it BasicViewController, BaseViewController, RootViewController or whatever you want such that all child view controllers can be based on.  For now, let us call this base view controller **BaseViewController**.  Import **TomatoHorizontalMenuFramework** to the view controller.
 
 3. In the base view controller, set the class to **TomatoHorizontalViewController**.  Create a function to set up the menu.  Let us call this function **setup(index: Int)**.  Also create an **override** function named **menuTapped**.
 
@@ -40,7 +40,7 @@ TomatoHorizontalBottomMenu Framework lets you create a horizontal, scrollable me
 
 ![](Screenshots/Screenshot_003.jpg)
 
-7. In each view controller to which the app is directed to, change the class to BasicViewController.  In its **viewDidLoad** method, call setup(index: number), where 'number' is an Int type value of a menu model from No. 4.
+7. In each view controller to which the app is directed to, change the class to BaseViewController.  In its **viewDidLoad** method, call setup(index: number), where 'number' is an Int type value of a menu model from No. 4.
 
 <h2>Variables</h2>
 
