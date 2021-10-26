@@ -32,7 +32,7 @@ TomatoHorizontalBottomMenu Framework lets you create a horizontal, scrollable me
 
 3. In the base view controller, set the class to **TomatoHorizontalViewController**.  Create a function to set up the menu.  Let us call this function **setup(index: Int)**.  Also create an **override** function named **menuTapped**.
 
-4. In the setup function, create an array of menu models with **TomatoHorizontalMenuModel**.  This struct takes three properties: name (String), imageName (String), menuIndex (Int).  The **name** property is the name of a tappable sub-menu.  And each of them corresponds to a specific view controller through the menuTapped function.  The **imageName*** property refers to the name of the image used to characterize each sub-menu.  And the index property determines the order of appearance.  It also tells the app which view controller it should access.
+4. In the setup function, create an array of menu models with **TomatoHorizontalMenuModel**.  This struct takes three properties: name (String), imageName (String), menuIndex (Int).  The **name** property is the name of a tappable sub-menu.  And each of them corresponds to a specific view controller through the menuTapped function.  The **imageName*** property refers to the name of the image used to characterize each sub-menu.  And the **index** property determines the order of appearance.  It also tells the app which view controller it should access.
 
 5. Call **tomatoSetup(index: index)** in the setup(index: Int) function of the base view controller.
 
