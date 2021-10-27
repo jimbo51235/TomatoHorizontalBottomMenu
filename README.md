@@ -14,7 +14,7 @@ Compatibility: iOS 11 or greater<br/>
 TomatoHorizontalBottomMenu Framework lets you create a horizontal, scrollable menu at the bottom of the screen.  Each sub-menu corresponds to a specific view controller.  Since the entire menu content is scrollable, you can add as many sub-menus as you want to the horizontal menu.  The following is a list of features.
 
 <ol>
-<li>Add five, six or as many as sub-menus as you want to the horizontal menu.</li>
+<li>Add five, six or as many sub-menus as you want to the horizontal menu.</li>
 <li>Use an image to characterize each sub-menu.</li>
 <li>Use two label colors, normal and highlight.  The latter applies to the view controller that is currently selected.</li>
 <li>Have options of having or not having a cave-in area at the top.</li>
